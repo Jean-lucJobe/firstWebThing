@@ -29,7 +29,7 @@ function makeWord(worddoc){
 }
 
 function getWord(){
-  return fetch("../wordz.json")
+  return fetch("../firstWebThing/wordz.json")
   .then(response => response.json())
   .then(data => makeWord(data));
 }
