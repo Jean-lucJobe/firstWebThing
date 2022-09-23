@@ -42,6 +42,12 @@ h1 {
   border-right: solid 3px white;
   border-radius: 15px 15px 0 0;
 }
+.main-content {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto 0;
+  max-width: 1400px;
+}
 .container, .card-container {
   display: flex;
   flex-direction: column;
